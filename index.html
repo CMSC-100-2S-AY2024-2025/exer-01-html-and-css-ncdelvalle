@@ -7,49 +7,81 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
-
+  <img class="header-photo" src="./images/manga.png">
+  <div class="logo">
+    <img src="./images/logo.png">
+  </div>
+  
   <header>
-    <div class="logo">LOGO</div>
     <nav>
-      <ul>
-        <li><a href="#">Nav Link 1</a></li>
-        <li><a href="#">Nav Link 2</a></li>
-        <li><a href="#">Nav Link 3</a></li>
-      </ul>
+      <a href="#featured">Featured</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="featured-photo">
-    <div class="placeholder-box">Featured Photo</div>
+  <section class="featured-container" id="featured">
+    <div class="featured">
+        <img class="featured-photo" src="./images/feature1.jpg">
+        <img class="featured-photo" src="./images/feature2.jpg">
+        <img class="featured-photo" src="./images/feature3.jpg">
+        <img class="featured-photo" src="./images/feature4.jpg">
+    </div>
+
+    <h1 class="featured-text">ON FEATURE: Fancluv (n.)</h1>
   </section>
 
   <section class="previous-projects">
-    <h2>Previous Projects</h2>
+    <h2 class="project-text">Previous Projects</h2>
     <div class="projects-container">
-      <div class="placeholder-box">Project 1</div>
-      <div class="placeholder-box">Project 2</div>
-      <div class="placeholder-box">Project 3</div>
-      <div class="placeholder-box">Project 4</div>
+
+      <div class="project">
+        <img class="project-img" src="./images/project1.png">
+        <h1 class="project-desc">SOTERIA is a research project that was presented in the National Science and Technology Fair 2022 under the Robotics and Intelligent Machines category. The project was conducted to primarily to contribute in the 9th Sustainable Development Goal: Industry, Innovation, and Infrastructure which aims to promote the underlying sector for the continuous growth of the country. The project used arduino and xethru x4m300 uwb radar to equip a rescue bot with an ability to detect signs of life behind large debris; aiding rescuers in a disaster rescue missions. </h1>
+      </div>
+
+      <div class="project">
+        <h1 class="project-desc">BIT RUSH is a javaFX-based game project that was developed as part of the course requirements for CMSC 22 of ICS-UPLB. It is a order-delivery game was inspired from food delivery services and from the common themes found in UPLB and nearby areas. BIT RUSH features audio-visual feedbacks, interactive controls, scoring, time-tracking, and pane swapping. Most importantly the development employs OOP-based approach in represent the game concepts and design of the project.</h1>
+        <img class="project-img" src="./images/project2.png">
+      </div>
+
+      <div class="project">
+        <img class="project-img" src="./images/project3.png">
+        <h1 class="project-desc">SINAYA is a research project conducted in collaboration of the SPCSIHS students and BFAR-Region 4A in 2023. The project was a Fuzzy Neural Network model that infers possible values for ammonia level using sets of pre-gathered data of pH level, temperature, and dissolved oxygen level in mariculture sites along Batangas Province. SINAYA was developed to promote 14.7 Life Below Water and 2.a Zero Hunger of the Sustainable Development Goals through the use of modern technological and mathematical approach in creating sustainable countries.</h1>
+      </div>
+
     </div>
   </section>
 
-  <section class="skills">
-    <h2>Skills</h2>
-    <div class="placeholder-box">Skills Content</div>
+  <section class="skills-container">
+    <div class="skills">
+        <img class="skill-photo" src="./images/skill1.png">
+        <img class="skill-photo" src="./images/skill2.png">
+        <img class="skill-photo" src="./images/skill3.png">
+        <img class="skill-photo" src="./images/skill4.png">
+        <img class="skill-photo" src="./images/skill5.png">
+        <img class="skill-photo" src="./images/skill6.png">
+        <img class="skill-photo" src="./images/skill7.png">
+        <img class="skill-photo" src="./images/skill8.png">
+        <img class="skill-photo" src="./images/skill9.png">
+
+    </div>
+
+    <h1 class="skill-text">HE IS A JACK-OF-ALL-TRADES</h1>
   </section>
 
-  <section class="autobiography">
-    <h2>Autobiography</h2>
-    <div class="placeholder-box">Autobiography Content</div>
+  <section class="autobio-container">
+    <h2 class="autobio-text">Autobiography</h2>
+    <div class="autobio">
+      <h3>Nyll is a sophomore BS Computer Science student at UPLB, is the fourth among five brothers from San Pablo City, Laguna. As a child, he idolized Iron Man, drawn to the genius of technology and innovation, which later shaped his passion for AI and game development. Beyond coding, he has a deep love for writing and crafting, especially in conceptualizing characters and world-building, blending creativity with logic. He also enjoys cooking, finding joy in experimenting with flavors and techniques, making it another outlet for his creativity. With a mind eager to explore and create, he continues to refine his skills, bringing his ideas to life in both digital and tangible forms.</h3>
+    </div>
   </section>
 
-  <footer>
+  <footer id="contact">
     <div class="footer-container">
-      <div class="footer-logo">Footer Logo</div>
+      <img class="footer-logo" src="./images/NYLL.png">
       <div class="footer-info">
-        <p>Address / Contact Info</p>
-        <p>Personal Website</p>
-        <p>&copy; 2025 Your Name</p>
+        <a class="email" href="mailto:ncdelvalle@up.edu.ph">ncdelvalle@up.edu.ph</a>
+        <p class="email">&copy; 2025 NCDELVALLE</p>
       </div>
       <div class="back-to-top">
         <a href="#top">Back to Top</a>
@@ -59,3 +91,8 @@
 
 </body>
 </html>
+
+<!--References:
+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
+https://www.w3schools.com/html
+-->
