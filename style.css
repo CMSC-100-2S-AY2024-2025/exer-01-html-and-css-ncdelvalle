@@ -41,7 +41,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* Header */
@@ -59,7 +59,14 @@ header {
     top: -120px;
     left: -151px;
     scale: 80%;
-    z-index: 2;
+    z-index: 3;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 nav {

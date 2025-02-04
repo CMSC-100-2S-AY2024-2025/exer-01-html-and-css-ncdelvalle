@@ -2,6 +2,14 @@
 
 NYLL ELIJAH C. DEL VALLE
 BS COMPUTER SCIENCE
+https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-ncdelvalle/#featured
 
+STEPS ON HOW TO USE GITHUB PAGES:
+Create/Clone a repository
+Add Commits and Push the updates
+Go to Github settings
+GO to Github pages on the sidebar
+Select main branch and then click save
+Refresh the page and the link should be up and online
 
 My belief that web development is not as easy as it looks was reaffirmed.
