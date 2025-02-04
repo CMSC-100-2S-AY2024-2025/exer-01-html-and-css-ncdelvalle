@@ -2,7 +2,7 @@
 
 NYLL ELIJAH C. DEL VALLE
 BS COMPUTER SCIENCE
-https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-ncdelvalle/#featured
+https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-ncdelvalle/
 
 STEPS ON HOW TO USE GITHUB PAGES:
 Create/Clone a repository
